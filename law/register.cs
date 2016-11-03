@@ -10,18 +10,18 @@ using System.Windows.Forms;
 
 namespace law
 {
-    public partial class affRemind : Form
+    public partial class register : Form
     {
-        public affRemind()
+        public register()
         {
             InitializeComponent();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
-            main m = new main();
-            m.Show();
+            login l = new login();
+            l.Show();
         }
     }
 }

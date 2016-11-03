@@ -64,5 +64,33 @@ namespace law
             incomeDetail id = new incomeDetail();
             id.Show();
         }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            login l = new login();
+            l.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            moneyUse mu = new moneyUse();
+            mu.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            affRemind ar = new affRemind();
+            ar.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            busIncome bi = new busIncome();
+            bi.Show();
+        }
     }
 }

@@ -59,6 +59,7 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.button15 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -91,7 +92,7 @@
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(28, 158);
+            this.button1.Location = new System.Drawing.Point(28, 157);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(102, 30);
             this.button1.TabIndex = 3;
@@ -104,7 +105,7 @@
             // 
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button2.Location = new System.Drawing.Point(28, 194);
+            this.button2.Location = new System.Drawing.Point(28, 197);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(103, 30);
             this.button2.TabIndex = 4;
@@ -117,7 +118,7 @@
             // 
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button3.Location = new System.Drawing.Point(28, 231);
+            this.button3.Location = new System.Drawing.Point(28, 236);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(103, 30);
             this.button3.TabIndex = 5;
@@ -130,7 +131,7 @@
             // 
             this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button4.Location = new System.Drawing.Point(28, 268);
+            this.button4.Location = new System.Drawing.Point(28, 275);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(103, 30);
             this.button4.TabIndex = 6;
@@ -143,7 +144,7 @@
             // 
             this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button5.Location = new System.Drawing.Point(27, 304);
+            this.button5.Location = new System.Drawing.Point(27, 314);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(104, 30);
             this.button5.TabIndex = 7;
@@ -156,31 +157,33 @@
             // 
             this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button6.Location = new System.Drawing.Point(28, 340);
+            this.button6.Location = new System.Drawing.Point(28, 352);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(104, 30);
             this.button6.TabIndex = 8;
             this.button6.Text = "资金使用";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
             this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button7.Location = new System.Drawing.Point(29, 377);
+            this.button7.Location = new System.Drawing.Point(29, 389);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(103, 30);
             this.button7.TabIndex = 9;
             this.button7.Text = "事务提醒";
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
             this.button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button8.BackgroundImage")));
             this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button8.Location = new System.Drawing.Point(29, 413);
+            this.button8.Location = new System.Drawing.Point(29, 424);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(103, 30);
             this.button8.TabIndex = 10;
@@ -193,13 +196,14 @@
             // 
             this.button9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button9.BackgroundImage")));
             this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button9.Location = new System.Drawing.Point(28, 447);
+            this.button9.Location = new System.Drawing.Point(29, 460);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(103, 30);
             this.button9.TabIndex = 11;
             this.button9.Text = "业务收入";
             this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // menuStrip1
             // 
@@ -273,7 +277,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
-            this.panel2.Location = new System.Drawing.Point(279, 262);
+            this.panel2.Location = new System.Drawing.Point(369, 285);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(682, 214);
             this.panel2.TabIndex = 13;
@@ -281,6 +285,7 @@
             // panel3
             // 
             this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
+            this.panel3.Controls.Add(this.button15);
             this.panel3.Controls.Add(this.button14);
             this.panel3.Controls.Add(this.button13);
             this.panel3.Controls.Add(this.button12);
@@ -367,7 +372,7 @@
             // 
             this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
             this.panel4.Controls.Add(this.label2);
-            this.panel4.Location = new System.Drawing.Point(0, 488);
+            this.panel4.Location = new System.Drawing.Point(0, 497);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1051, 40);
             this.panel4.TabIndex = 15;
@@ -382,6 +387,18 @@
             this.label2.Size = new System.Drawing.Size(76, 16);
             this.label2.TabIndex = 0;
             this.label2.Text = "版权所有";
+            // 
+            // button15
+            // 
+            this.button15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button15.BackgroundImage")));
+            this.button15.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button15.Location = new System.Drawing.Point(695, 0);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(109, 46);
+            this.button15.TabIndex = 6;
+            this.button15.Text = "退出系统";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // main
             // 
@@ -448,5 +465,6 @@
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button15;
     }
 }

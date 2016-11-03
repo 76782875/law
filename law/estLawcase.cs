@@ -16,5 +16,12 @@ namespace law
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            main m = new main();
+            m.Show();
+        }
     }
 }

@@ -19,9 +19,16 @@ namespace law
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             main m = new main();
             m.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            register r = new register();
+            r.Show();
         }
     }
 }
