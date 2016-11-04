@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>D:\mysql\mysql连接VS-MySql组件\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -63,6 +66,7 @@
     <Compile Include="busIncome.Designer.cs">
       <DependentUpon>busIncome.cs</DependentUpon>
     </Compile>
+    <Compile Include="dataBaseUtil.cs" />
     <Compile Include="dutyTable.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -256,6 +260,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\login3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
