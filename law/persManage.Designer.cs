@@ -62,7 +62,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -393,7 +392,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label13.Location = new System.Drawing.Point(274, 358);
+            this.label13.Location = new System.Drawing.Point(320, 356);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(42, 16);
             this.label13.TabIndex = 30;
@@ -401,7 +400,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(324, 356);
+            this.textBox5.Location = new System.Drawing.Point(381, 354);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(153, 21);
             this.textBox5.TabIndex = 31;
@@ -409,22 +408,12 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button5.Location = new System.Drawing.Point(508, 354);
+            this.button5.Location = new System.Drawing.Point(564, 354);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 32;
             this.button5.Text = "查询";
             this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button6.Location = new System.Drawing.Point(602, 354);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 33;
-            this.button6.Text = "清空";
-            this.button6.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -443,7 +432,6 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(987, 664);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label13);
@@ -520,7 +508,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

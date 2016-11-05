@@ -56,7 +56,6 @@
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -257,7 +256,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label10.Location = new System.Drawing.Point(221, 271);
+            this.label10.Location = new System.Drawing.Point(259, 270);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(42, 16);
             this.label10.TabIndex = 24;
@@ -296,7 +295,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(284, 270);
+            this.textBox5.Location = new System.Drawing.Point(318, 268);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(185, 21);
             this.textBox5.TabIndex = 28;
@@ -304,21 +303,12 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button5.Location = new System.Drawing.Point(500, 268);
+            this.button5.Location = new System.Drawing.Point(534, 268);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 29;
             this.button5.Text = "查询";
             this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(601, 268);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 30;
-            this.button6.Text = "清空";
-            this.button6.UseVisualStyleBackColor = true;
             // 
             // moneyUse
             // 
@@ -326,7 +316,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(992, 667);
-            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.comboBox2);
@@ -391,6 +380,5 @@
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
     }
 }

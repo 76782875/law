@@ -56,7 +56,6 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -282,7 +281,7 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label10.Location = new System.Drawing.Point(227, 259);
+            this.label10.Location = new System.Drawing.Point(255, 256);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(76, 16);
             this.label10.TabIndex = 24;
@@ -290,7 +289,7 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(307, 257);
+            this.textBox7.Location = new System.Drawing.Point(346, 254);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(163, 21);
             this.textBox7.TabIndex = 25;
@@ -298,7 +297,7 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button4.Location = new System.Drawing.Point(482, 256);
+            this.button4.Location = new System.Drawing.Point(551, 253);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 26;
@@ -316,23 +315,12 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button6
-            // 
-            this.button6.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button6.Location = new System.Drawing.Point(582, 256);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 28;
-            this.button6.Text = "清空";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
             // sinContract
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(982, 670);
-            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.textBox7);
@@ -397,6 +385,5 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
     }
 }

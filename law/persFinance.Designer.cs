@@ -63,7 +63,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -308,7 +307,7 @@
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label14.Location = new System.Drawing.Point(214, 329);
+            this.label14.Location = new System.Drawing.Point(237, 329);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(76, 16);
             this.label14.TabIndex = 27;
@@ -316,7 +315,7 @@
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(311, 327);
+            this.textBox10.Location = new System.Drawing.Point(329, 326);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(156, 21);
             this.textBox10.TabIndex = 28;
@@ -374,22 +373,12 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button5.Location = new System.Drawing.Point(495, 326);
+            this.button5.Location = new System.Drawing.Point(511, 326);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 34;
             this.button5.Text = "查询";
             this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button6.Location = new System.Drawing.Point(584, 326);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 35;
-            this.button6.Text = "清空";
-            this.button6.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -407,7 +396,6 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(990, 657);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -486,7 +474,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Panel panel1;
     }
 }
