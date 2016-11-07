@@ -249,6 +249,7 @@
             this.button3.TabIndex = 20;
             this.button3.Text = "修改";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // panel1
             // 
@@ -273,7 +274,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(12, 298);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(958, 360);
+            this.dataGridView1.Size = new System.Drawing.Size(1036, 360);
             this.dataGridView1.TabIndex = 23;
             // 
             // label10
@@ -320,7 +321,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(982, 670);
+            this.ClientSize = new System.Drawing.Size(1061, 670);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.textBox7);
@@ -350,6 +351,7 @@
             this.Controls.Add(this.label1);
             this.Name = "sinContract";
             this.Text = "sinContract";
+            this.Load += new System.EventHandler(this.sinContract_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
